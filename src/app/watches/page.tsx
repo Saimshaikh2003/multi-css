@@ -56,8 +56,8 @@ const Watches = () => {
               <Image
                 src={watch.image as string}
                 alt={watch.name}
-                width={298}
-                height={263}
+                width={228}
+                height={253}
               />
             </div>
             <h3>{watch.name}</h3>
