@@ -8,42 +8,42 @@ const Watches = () => {
       name: "Rolex",
       price: 12000,
       description: "luxury watch",
-      Image: "/public/pic1.jpg",
+      image: "/pic1.jpg",
     },
     {
       id: 2,
       name: "omega",
       price: 20000,
       description: "luxury watch",
-      Image: "/public/pic2.jpg",
+      image: "/pic2.jpg",
     },
     {
       id: 3,
       name: "Adidas",
       price: 80000,
       description: "luxury watch",
-      Image: "/public/pic5.jpeg",
+      image: "/pic5.jpeg",
     },
     {
       id: 6,
       name: "Beetling",
       price: 90000,
       description: "luxury watch",
-      Image: "/public/pic9.jpg",
+      image: "/pic9.jpg",
     },
     {
       id: 7,
       name: "Rado",
       price: 32000,
       description: "luxury watch",
-      Image: "/public/pic10.jpg",
+      image: "/pic10.jpg",
     },
     {
       id: 8,
       name: "seiko",
       price: 175000,
       description: "luxury watch",
-      Image: "/public/pic11.jpg",
+      image: "/pic11.jpg",
     },
   ];
 
@@ -53,7 +53,7 @@ const Watches = () => {
         {watchData.map((watch) => (
           <div key={watch.id} className="watch-card">
             <Image
-              src={watch.Image}
+              src={watch.image as string}
               alt={watch.name}
               width={298}
               height={263}
