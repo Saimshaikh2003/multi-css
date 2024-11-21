@@ -52,12 +52,14 @@ const Watches = () => {
       <div className="watches">
         {watchData.map((watch) => (
           <div key={watch.id} className="watch-card">
-            <Image
-              src={watch.image as string}
-              alt={watch.name}
-              width={298}
-              height={263}
-            />
+            <div className="watch-image">
+              <Image
+                src={watch.image as string}
+                alt={watch.name}
+                width={298}
+                height={263}
+              />
+            </div>
             <h3>{watch.name}</h3>
             <p>{watch.description}</p>
             <div className="price">${watch.price}</div>
