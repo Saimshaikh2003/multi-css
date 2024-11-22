@@ -30,7 +30,7 @@ const Watches = () => {
           <div key={watch.id} className="watch-card">
             
               <Image
-                src={watch.image} alt={watch.name}/>
+                src={watch.image} alt={watch.name} width={293} height={270}/>
               <h3>{watch.name}</h3>
             <p>{watch.description}</p>
             <div className="price">${watch.price}</div>
