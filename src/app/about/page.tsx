@@ -5,7 +5,7 @@ const About = () => {
     <div>
       <section
         className="about"
-        style={{ backgroundImage: "url('/about.jpg')" }}
+        style={{ backgroundImage: "url(/about.jpg)" }}
       >
         <div className="about-content">
           <h2 className="fade-in">About Us</h2>

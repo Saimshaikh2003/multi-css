@@ -15,11 +15,10 @@ a {
   color: #333;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
   font-weight: bold;
 }
+/*Header style */
 
 .header {
   background-color: #0070f3;
@@ -47,6 +46,7 @@ h3 {
 .header nav a:hover {
   text-decoration: underline;
 }
+/*Footer style*/
 
 footer {
   background-color: #0070f3;
@@ -62,7 +62,6 @@ footer p {
 /**Homepage style */
 
 .hero {
-  background-image: url("/background.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
